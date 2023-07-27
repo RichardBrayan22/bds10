@@ -7,10 +7,9 @@ import { AxiosRequestConfig } from 'axios';
 import { Department } from 'types/department';
 import Select from 'react-select';
 import { useEffect, useState } from 'react';
-
+import { toast } from 'react-toastify';
 
 import './styles.css';
-import { toast } from 'react-toastify';
 
 const Form = () => {
 
